@@ -75,6 +75,7 @@ public class EmailListController extends AbstractController {
 	@FXML
 	void newEmail(ActionEvent event) throws IOException {
 		Stage stage = new Stage();
+		stage.setTitle("New E-Mail");
 		getMain().loadFXMLIntoStage("editEmail", stage);
 		stage.show();
 	}

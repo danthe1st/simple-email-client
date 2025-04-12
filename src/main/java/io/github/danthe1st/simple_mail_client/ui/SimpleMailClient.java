@@ -45,6 +45,7 @@ public class SimpleMailClient extends Application {
 			loadFXMLIntoStage("main", stage);
 		}
 		
+		stage.setTitle("Simple E-Mail client");
 		stage.show();
 	}
 	
