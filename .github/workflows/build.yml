@@ -1,0 +1,30 @@
+name: Build
+on: [push]
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Graal JDK
+      uses: graalvm/setup-graalvm@v1
+      with:
+        distribution: 'graalvm'
+        java-version: '24'
+        cache: 'maven'
+    - name: Compile native-image -PnativeProd
+      run: mvn native:compile
+    - name: Create directory structure
+      run: |
+        mkdir simple-mail-client
+        cp target/simple-mail-client simple-mail-client/
+        cp target/native/*.so simple-mail-client/
+        cp target/*.so simple-mail-client/
+      shell: bash
+    - name: Upload
+      uses: actions/upload-artifact@v4
+      with:
+        name: simple-mail-client
+        path: simple-mail-client

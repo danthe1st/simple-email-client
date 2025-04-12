@@ -1,0 +1,35 @@
+[
+  {
+    "name" : "io.github.danthe1st.simple_mail_client.email.data.EmailConnectionInformation",
+    "allDeclaredMethods" : true,
+    "allDeclaredFields" : true
+  },
+  {
+    "name" : "io.github.danthe1st.simple_mail_client.email.data.EmailConnectionInformation$ServerInformation",
+    "allDeclaredMethods" : true,
+    "allDeclaredFields" : true
+  },
+  {
+    "name" : "io.github.danthe1st.simple_mail_client.ui.LoginController",
+    "allDeclaredMethods" : true,
+    "allDeclaredFields" : true
+  },
+  {
+    "name" : "io.github.danthe1st.simple_mail_client.ui.EmailListController",
+    "allDeclaredMethods" : true,
+    "allDeclaredFields" : true
+  },
+  {
+    "name" : "io.github.danthe1st.simple_mail_client.ui.SendEmailController",
+    "allDeclaredMethods" : true,
+    "allDeclaredFields" : true
+  },
+  {
+  "name":"com.sun.javafx.tk.quantum.QuantumToolkit",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name": "com.sun.prism.sw.SWPipeline",
+    "allPublicMethods" : true
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\QMETA-INF/fonts.mf\\E"
+  }, {
+    "pattern":"\\QMETA-INF/javamail.address.map\\E"
+  }, {
+    "pattern":"\\QMETA-INF/javamail.providers\\E"
+  }, {
+    "pattern":"\\QMETA-INF/mailcap\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/jakarta.mail.Provider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.awt.im.spi.InputMethodDescriptor\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.lang.System$LoggerFinder\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.net.spi.InetAddressResolverProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.net.spi.URLStreamHandlerProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.time.zone.ZoneRulesProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/javax.xml.stream.XMLInputFactory\\E"
+  }, {
+    "pattern":"io.github.danthe1st.simple_mail_client:\\QMETA-INF/javamail.default.address.map\\E"
+  }, {
+    "pattern":"io.github.danthe1st.simple_mail_client:\\QMETA-INF/javamail.default.providers\\E"
+  }, {
+    "pattern":"io.github.danthe1st.simple_mail_client:\\Qio/github/danthe1st/simple_mail_client/ui/editEmail.fxml\\E"
+  }, {
+    "pattern":"io.github.danthe1st.simple_mail_client:\\Qio/github/danthe1st/simple_mail_client/ui/main.fxml\\E"
+  }, {
+    "pattern":"jakarta.activation:\\QMETA-INF/mailcap.default\\E"
+  }, {
+    "pattern":"jakarta.mail:\\QMETA-INF/javamail.charset.map\\E"
+  }, {
+    "pattern":"java.base:\\Qjdk/internal/icu/impl/data/icudt72b/nfkc.nrm\\E"
+  }, {
+    "pattern":"java.base:\\Qjdk/internal/icu/impl/data/icudt72b/ubidi.icu\\E"
+  }, {
+    "pattern":"java.base:\\Qjdk/internal/icu/impl/data/icudt72b/uprops.icu\\E"
+  }, {
+    "pattern":"java.base:\\Qsun/net/idn/uidna.spp\\E"
+  }, {
+    "pattern":"java.desktop:\\Qjavax/swing/text/html/default.css\\E"
+  }, {
+    "pattern":"java.desktop:\\Qjavax/swing/text/html/parser/html32.bdtd\\E"
+  }, {
+    "pattern":"javafx.base:\\Qcom/sun/javafx/reflect/Trampoline.class\\E"
+  }, {
+    "pattern":"javafx.controls:\\Qcom/sun/javafx/scene/control/skin/modena/modena.bss\\E"
+  }, {
+    "pattern":"javafx.graphics:\\Qcom/sun/glass/utils/NativeLibLoader.class\\E"
+  }, {
+    "pattern":"javafx.graphics:\\Qcom/sun/prism/es2/glsl/FillPgram_Color.frag\\E"
+  }, {
+    "pattern":"javafx.graphics:\\Qcom/sun/prism/es2/glsl/FillPgram_LinearGradient_PAD.frag\\E"
+  }, {
+    "pattern":"javafx.graphics:\\Qcom/sun/prism/es2/glsl/Mask_TextureSuper.frag\\E"
+  }, {
+    "pattern":"javafx.graphics:\\Qcom/sun/prism/es2/glsl/Solid_Color.frag\\E"
+  }, {
+    "pattern":"javafx.graphics:\\Qcom/sun/prism/es2/glsl/Solid_TextureFirstPassLCD.frag\\E"
+  }, {
+    "pattern":"javafx.graphics:\\Qcom/sun/prism/es2/glsl/Solid_TextureRGB.frag\\E"
+  }, {
+    "pattern":"javafx.graphics:\\Qcom/sun/prism/es2/glsl/Solid_TextureSecondPassLCD.frag\\E"
+  }, {
+    "pattern":"javafx.graphics:\\Qcom/sun/prism/es2/glsl/Texture_Color.frag\\E"
+  }, {
+    "pattern":"javafx.graphics:\\Qcom/sun/prism/es2/glsl/Texture_LinearGradient_PAD.frag\\E"
+  }, {
+    "pattern":"javafx.graphics:\\Qcom/sun/scenario/effect/impl/es2/glsl/LinearConvolveShadow_4.frag\\E"
+  }, {
+    "pattern":"javafx.graphics:\\Qlibglass.so\\E"
+  }, {
+    "pattern":"javafx.graphics:\\Qlibglassgtk3.so\\E"
+  }, {
+    "pattern":"javafx.graphics:\\Qlibjavafx_font.so\\E"
+  }, {
+    "pattern":"javafx.graphics:\\Qlibjavafx_font_freetype.so\\E"
+  }, {
+    "pattern":"javafx.graphics:\\Qlibjavafx_font_pango.so\\E"
+  }, {
+    "pattern":"javafx.graphics:\\Qlibprism_common.so\\E"
+  }, {
+    "pattern":"javafx.graphics:\\Qlibprism_es2.so\\E"
+  }]},
+  "bundles":[{
+    "name":"com.sun.javafx.tk.quantum.QuantumMessagesBundle",
+    "locales":[""]
+  }, {
+    "name":"com.sun.swing.internal.plaf.basic.resources.basic",
+    "classNames":["com.sun.swing.internal.plaf.basic.resources.basic"]
+  }, {
+    "name":"com.sun.swing.internal.plaf.metal.resources.metal",
+    "classNames":["com.sun.swing.internal.plaf.metal.resources.metal"]
+  }, {
+    "name":"com/sun/javafx/scene/control/skin/resources/controls",
+    "locales":[""]
+  }, {
+    "name":"sun.awt.resources.awt",
+    "classNames":["sun.awt.resources.awt"]
+  }]
+}
