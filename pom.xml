@@ -100,7 +100,7 @@
 					<verbose>true</verbose>
 					<buildArgs>
 						<buildArg>-p</buildArg>
-						<buildArg>@${project.build.directory}${file.separator}dependencies.list</buildArg>
+						<buildArg>/@${project.build.directory}${file.separator}dependencies.list</buildArg>
 						<buildArg>--add-reads</buildArg>
 						<buildArg>org.eclipse.angus.mail=org.graalvm.nativeimage</buildArg>
 						<buildArg>--add-reads</buildArg>
@@ -128,6 +128,7 @@
 						<id>default-cli</id>
 						<configuration>
 							<mainClass>${main.class}</mainClass>
+							
 						</configuration>
 					</execution>
 				</executions>
