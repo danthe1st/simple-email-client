@@ -6,7 +6,7 @@ The name sais it all. This is a simple E-Mail client written with JavaFX.
 ![View E-mails](img/showmail.png)  
 ![View E-mails](img/sendmail.png)
 
-### Pre-built executables
+### Download
 
 Executables are available as build artifacts [using GitHub Actions](https://github.com/danthe1st/simple-email-client/actions). These builds include a minimal JRE and do not need any additional Java installation to run.  
 To use them, just download the zip file for your operating system and run the `simple-email-client` executable in the `bin` directory.
