@@ -19,12 +19,12 @@ jobs:
     - name: Upload
       uses: actions/upload-artifact@v4
       with:
-        name: simple-mail-client-native-${{ matrix.os }}
+        name: simple-mail-client-${{ matrix.os }}
         path: target/image
   build-native-image:
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest]
+        os: [ubuntu-latest]
     runs-on: ${{ matrix.os }}
     steps:
     - uses: actions/checkout@v4
@@ -46,5 +46,5 @@ jobs:
     - name: Upload
       uses: actions/upload-artifact@v4
       with:
-        name: simple-mail-client
+        name: simple-mail-client-linux-native
         path: simple-mail-client
