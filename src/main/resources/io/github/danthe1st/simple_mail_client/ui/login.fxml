@@ -15,12 +15,12 @@
       <Label layoutX="38.0" layoutY="75.0" minHeight="26.0" prefHeight="26.0" text="Server address (outgoing)" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="75.0" />
       <TextField fx:id="smtpAddressField" layoutX="248.0" layoutY="71.0" AnchorPane.leftAnchor="370.0" AnchorPane.rightAnchor="75.0" AnchorPane.topAnchor="75.0" />
       <Label layoutX="81.0" layoutY="107.0" minHeight="26.0" text="SMTP port" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="125.0" />
-      <Spinner fx:id="smtpPortField" editable="true" layoutX="450.0" layoutY="125.0" prefHeight="26.0" prefWidth="81.0" AnchorPane.leftAnchor="370.0" AnchorPane.rightAnchor="160.0" AnchorPane.topAnchor="125.0" />
-      <CheckBox fx:id="startTLSCheckbox" layoutX="496.0" layoutY="129.0" mnemonicParsing="false" text="STARTLS" AnchorPane.rightAnchor="75.0" />
+      <Spinner fx:id="smtpPortField" editable="true" layoutX="450.0" layoutY="125.0" prefHeight="26.0" prefWidth="81.0" AnchorPane.leftAnchor="370.0" AnchorPane.rightAnchor="165.0" AnchorPane.topAnchor="125.0" />
+      <CheckBox fx:id="startTLSCheckbox" layoutX="496.0" layoutY="129.0" mnemonicParsing="false" text="STARTTLS" AnchorPane.rightAnchor="75.0" />
       <Label layoutX="67.0" layoutY="172.0" minHeight="26.0" text="Server address (incoming)" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="175.0" />
       <TextField fx:id="incomingAddressField" layoutX="363.0" layoutY="180.0" AnchorPane.rightAnchor="75.0" AnchorPane.topAnchor="175.0" />
       <Label layoutX="83.0" layoutY="234.0" prefHeight="26.0" text="IMAP Port" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="225.0" />
-      <Spinner fx:id="incomingPortField" editable="true" layoutX="444.0" layoutY="234.0" prefHeight="26.0" prefWidth="81.0" AnchorPane.leftAnchor="370.0" AnchorPane.rightAnchor="160.0" AnchorPane.topAnchor="225.0" />
+      <Spinner fx:id="incomingPortField" editable="true" layoutX="444.0" layoutY="234.0" prefHeight="26.0" prefWidth="81.0" AnchorPane.leftAnchor="370.0" AnchorPane.rightAnchor="165.0" AnchorPane.topAnchor="225.0" />
       <CheckBox fx:id="imapsCheckbox" layoutX="457.0" layoutY="229.0" mnemonicParsing="false" text="Secure" AnchorPane.rightAnchor="75.0" />
       <Label layoutX="153.0" layoutY="273.0" prefHeight="26.0" text="E-Mail address" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="275.0" />
       <TextField fx:id="emailField" layoutX="363.0" layoutY="279.0" AnchorPane.rightAnchor="75.0" AnchorPane.topAnchor="275.0" />

@@ -53,6 +53,8 @@
   }, {
     "pattern":"javafx.controls:\\Qcom/sun/javafx/scene/control/skin/modena/modena.bss\\E"
   }, {
+    "pattern":"javafx.controls:\\Qcom/sun/javafx/scene/control/skin/modena/dialog-error.png\\E"
+  }, {
     "pattern":"javafx.graphics:\\Qcom/sun/glass/utils/NativeLibLoader.class\\E"
   }, {
     "pattern":"javafx.graphics:\\Qcom/sun/prism/es2/glsl/FillPgram_Color.frag\\E"
