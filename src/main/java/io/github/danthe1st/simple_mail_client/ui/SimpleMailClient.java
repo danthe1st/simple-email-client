@@ -21,7 +21,6 @@ import javafx.stage.Stage;
 public class SimpleMailClient extends Application {
 	
 	private Stage primaryStage;
-	private Scene scene;
 	private EmailSender emailSender;
 	private EmailReceiver emailReceiver;
 	private String ownAddress;

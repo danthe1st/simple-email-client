@@ -21,7 +21,7 @@ public record EmailConnectionInformation(
 		Objects.requireNonNull(password);
 	}
 	
-	public record ServerInformation(String serverAddress, int port) {
+	public record ServerInformation(String serverAddress, int port, boolean secure) {
 		public ServerInformation {
 			Objects.requireNonNull(serverAddress);
 		}

@@ -11,6 +11,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.Spinner;
 import javafx.scene.control.SpinnerValueFactory;
@@ -38,6 +39,12 @@ public class LoginController extends AbstractController {
 	@FXML
 	private Spinner<Integer> smtpPortField;
 	
+	@FXML
+	private CheckBox startTLSCheckbox;
+	
+	@FXML
+	private CheckBox imapsCheckbox;
+	
 	@Override
 	void init() {
 		incomingPortField.setValueFactory(new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 49151, 995));
@@ -47,8 +54,8 @@ public class LoginController extends AbstractController {
     @FXML
     void connect(ActionEvent event) {
 		EmailConnectionInformation connectionInfo = new EmailConnectionInformation(
-				new ServerInformation(incomingAddressField.getText(), incomingPortField.getValue()),
-				new ServerInformation(smtpAddressField.getText(), smtpPortField.getValue()),
+				new ServerInformation(incomingAddressField.getText(), incomingPortField.getValue(), imapsCheckbox.isSelected()),
+				new ServerInformation(smtpAddressField.getText(), smtpPortField.getValue(), startTLSCheckbox.isSelected()),
 				emailField.getText(),
 				emailField.getText(), passwordField.getText()
 		);

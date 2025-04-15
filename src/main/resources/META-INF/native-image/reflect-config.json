@@ -48,6 +48,12 @@
     "allDeclaredConstructors": true
   },
   {
+    "name":"javafx.scene.control.CheckBox",
+    "allDeclaredMethods" : true,
+    "allDeclaredFields" : true,
+    "allDeclaredConstructors": true
+  },
+  {
     "name":"javafx.scene.text.TextAlignment",
     "allPublicMethods" : true,
     "allPublicFields" : true

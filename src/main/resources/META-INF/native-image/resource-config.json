@@ -7,6 +7,8 @@
   }, {
     "pattern":"\\QMETA-INF/javamail.providers\\E"
   }, {
+    "pattern":"\\QMETA-INF/javamail.default.address.map\\E"
+  }, {
     "pattern":"\\QMETA-INF/mailcap\\E"
   }, {
     "pattern":"\\QMETA-INF/services/jakarta.mail.Provider\\E"

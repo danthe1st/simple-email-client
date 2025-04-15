@@ -33,7 +33,7 @@ public class EmailReceiver implements AutoCloseable {
 	public EmailReceiver(Session session, EmailConnectionInformation connectionInformation) throws EmailException {
 		try{
 			store = session.getStore();
-			store.connect(connectionInformation.incoming().serverAddress(), connectionInformation.username(), connectionInformation.password());
+			store.connect(connectionInformation.incoming().serverAddress(), connectionInformation.incoming().port(), connectionInformation.username(), connectionInformation.password());
 			Folder inbox = store.getFolder("INBOX");
 			folders.put("INBOX", new EmailFolderImpl(this, inbox));
 		}catch(NoSuchProviderException e){

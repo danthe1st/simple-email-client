@@ -25,7 +25,8 @@ public class EmailSender {
 	public void sendMail(Email email) throws EmailException {
 		MimeMessage message = new MimeMessage(session);
 		try{
-			message.setFrom(new InternetAddress(email.from()));
+			InternetAddress address = new InternetAddress(email.from());
+			message.setFrom(address);
 			message.setRecipients(RecipientType.TO, email.to()
 					.stream()
 				.map(this::toInternetAddressUnchecked)
