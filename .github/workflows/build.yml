@@ -19,7 +19,7 @@ jobs:
     - name: Upload
       uses: actions/upload-artifact@v4
       with:
-        name: simple-mail-client-${{ matrix.os }}
+        name: simple-email-client-${{ matrix.os }}
         path: target/image
   build-native-image:
     strategy:
@@ -38,13 +38,13 @@ jobs:
       run: mvn native:compile -PnativeProd
     - name: Create directory structure
       run: |
-        mkdir simple-mail-client
-        cp target/simple-mail-client simple-mail-client/
-        cp target/native/*.so simple-mail-client/
-        cp target/*.so simple-mail-client/
+        mkdir simple-email-client
+        cp target/simple-email-client simple-email-client/
+        cp target/native/*.so simple-email-client/
+        cp target/*.so simple-email-client/
       shell: bash
     - name: Upload
       uses: actions/upload-artifact@v4
       with:
-        name: simple-mail-client-linux-native
-        path: simple-mail-client
+        name: simple-email-client-linux-native
+        path: simple-email-client
